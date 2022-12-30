@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.4;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ...... Below this line is the header style ...... */
+
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252a;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.user {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.logo {
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #24252a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+/* ...... Below this line is the hero section style ...... */
+
+
+#home {
+    background-image: url(https://images.unsplash.com/photo-1593902581864-7ff48cffacb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    
+}
+
+
+button {
+    padding: 9px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+    
+}
+
+.heropbox {
+    width: 500px;
+}
+
+.herop {
+    text-align: left;
+   
+    
+}
+
+.hero h1, p, button {
+    margin: 10px;
+    
+}
+
+h1, h2 {
+    font-size: xx-large;
+    font-weight: 700;
+    
+}
+
+p {
+    font-size: large;
+}
+
+
+/* ...... Below this line is the abuot section style ...... */
+
+
+#abuot {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 50px;
+    height: 800px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.abuotbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#abuot i, h3, h2, p {
+    text-align: center;
+    padding: 5px;
+}
+
+#mombox {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.babybox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.babybox i  {
+    font-size: xx-large;
+    padding: 5px;
+}
+
+
+/* ...... Below this line is the book section style ...... */
+
+
+#book {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 50px;
+    width: auto;
+    height: 800px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.bookmom {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.bookmom  li {
+    list-style: none;
+
+}
+
+.bookmom h4 {
+    font-size: x-large;
+}
+
+.bookinfo {
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input {
+    width: 200px;
+    height: 45px;
+    padding: 9px 25px;
+    border-radius: 5px;
+    margin: 8px 10px ;
+}
+
+.daybox {
+    color: aliceblue;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 280px;
+    height: 350px;
+    background-image: url(https://i.pinimg.com/originals/19/fe/f8/19fef843317ed3105369ea549b2943fa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.daybox li {
+    color: aliceblue;
+}
+
+.daybtn {
+    background-color:#ffffff00;
+    color:aliceblue;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+button i {
+    font-size: large;
+    
+}
+
+textarea {
+    width: 430px;
+    height: 97px;
+    border-style: solid;               
+    border-width: 2px;
+    border-color: #5d5d5ddd;
+    border-radius: 5px;
+}
+
+
+/* ...... Below this line is the projects section style ...... */
+
+
+#projects {
+    /* width: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center; */
+    
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 50px;
+    width: auto;
+    height: 800px;
+    justify-content: space-evenly;
+    align-content: center;
+   
+
+}
+
+/* ...................  ---------  ..................... */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  form {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    margin: 30px;
+  }
+  
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  
+  input::placeholder {
+    color: #bbb;
+  }
+  
+  
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+  
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #5252529e;
+    border-color: #1183d6;
+    outline: none;
+  }
+  
+  form.nosubmit {
+    border: none;
+    padding: 0;
+    width: 180px;
+    height: 50px;
+    border-style: solid;               
+    border-width: 2px;
+    border-color: #363636dd;
+    border-radius: 5px;
+  }
+  
+  input.nosubmit {
+    border: 1px solid #555;
+    width: 100%;
+    padding: 9px 4px 9px 40px;
+     background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+
+
+
+/* -----------------------    page-content-cards     ---------------------- */
+
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: "Rubik", sans-serif;
+  --font-serif: "Cardo", serif;
+}
+.page-content {
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    grid-gap: 1rem;
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+@media (min-width: 600px) {
+.page-content {
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media (min-width: 800px) {
+.page-content {
+    grid-template-columns: repeat(4, 1fr);
+}
+}
+
+.card {
+position: relative;
+display: flex;
+align-items: flex-end;
+overflow: hidden;
+padding: 1rem;
+width: 100%;
+text-align: center;
+color: whitesmoke;
+background-color: whitesmoke;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 600px) {
+.card {
+    height: 350px;
+}
+}
+.card:before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 110%;
+background-size: cover;
+background-position: 0 0;
+transition: transform calc(var(--d) * 1.5) var(--e);
+pointer-events: none;
+}
+.card:after {
+content: "";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 200%;
+pointer-events: none;
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+transform: translateY(-50%);
+transition: transform calc(var(--d) * 2) var(--e);
+}
+.card:nth-child(1):before {
+background-image: url(https://wallpaper.dog/large/10826447.jpg);
+}
+.card:nth-child(2):before {
+background-image: url(https://r1.ilikewallpaper.net/iphone-x-wallpapers/download/75765/low-angle-photography-of-white-and-black-concrete--iphone-x-wallpaper-ilikewallpaper_com.jpg);
+}
+.card:nth-child(3):before {
+background-image: url(https://w0.peakpx.com/wallpaper/13/375/HD-wallpaper-building-bottom-view-facade-walls.jpg);
+}
+.card:nth-child(4):before {
+background-image: url(https://i.pinimg.com/550x/5d/88/d4/5d88d4d5a161c7d9c28d231fc68a328b.jpg);
+}
+
+.content {
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+padding: 1rem;
+transition: transform var(--d) var(--e);
+z-index: 1;
+}
+.content > * + * {
+margin-top: 1rem;
+}
+
+.title {
+font-size: 1.3rem;
+font-weight: bold;
+line-height: 1.2;
+}
+
+.copy {
+font-family: var(--font-serif);
+font-size: 1.125rem;
+font-style: italic;
+line-height: 1.35;
+}
+
+.btn {
+cursor: pointer;
+margin-top: 1.5rem;
+padding: 0.75rem 1.5rem;
+font-size: 0.65rem;
+font-weight: bold;
+letter-spacing: 0.025rem;
+text-transform: uppercase;
+color: white;
+background-color: black;
+border: none;
+}
+.btn:hover {
+background-color: #0d0d0d;
+}
+.btn:focus {
+outline: 1px dashed yellow;
+outline-offset: 3px;
+}
+
+@media (hover: hover) and (min-width: 600px) {
+    .card:after {
+      transform: translateY(0);
+    }
+  
+    .content {
+      transform: translateY(calc(100% - 4.5rem));
+    }
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translateY(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .card:hover,
+  .card:focus-within {
+      align-items: center;
+    }
+    .card:hover:before,
+  .card:focus-within:before {
+      transform: translateY(-4%);
+    }
+    .card:hover:after,
+  .card:focus-within:after {
+      transform: translateY(-50%);
+    }
+    .card:hover .content,
+  .card:focus-within .content {
+      transform: translateY(0);
+    }
+    .card:hover .content > *:not(.title),
+  .card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translateY(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .card:focus-within:before, .card:focus-within:after,
+  .card:focus-within .content,
+  .card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    flex-direction: column;
+    top: 50px;
+    height: 700px;
+    color: aliceblue;
+    justify-content: space-evenly;
+    align-content: center;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.90) 100%), url(https://miro.medium.com/max/1200/0*F4QsnZTYhz_xEO2P.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    z-index: -1;
+    width: 100%;
+   
+}
+
+
+ 
+
+ .footer_menu {
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+ .footer_menu ul li {
+    list-style: none;
+    padding-bottom: 20px;
+    color:aliceblue;
+    font-size: 13px;
+}
+ .footer_menu ul li a{
+    font-size: 13px;
+margin-bottom: 6px;
+color:aliceblue;
+list-style: none;
+
+}
+
+ .footer_menu ul li a:hover{
+text-decoration: underline;
+}
+
+
+.col_1 {
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 25%;
+   
+}
+  
+.col_2 {
+    
+    /* float: left; */
+    width: 25%;
+    /* margin-inline: auto; */
+    padding-left: 5rem;
+}
+
+.aq {
+    display: flex;
+    width: min-content;
+    
+    
+}
+
+.daddiv {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.aqinput {
+    
+    width: 180px;
+    height: 45px;
+    
+    border-radius: 5px;
+    margin: 8px  ;
+}
+
+
+
